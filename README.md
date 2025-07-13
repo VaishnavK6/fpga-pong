@@ -4,17 +4,17 @@ This project is a 2-player Pong game implemented entirely on an FPGA using Veril
   <img width="667" height="394" alt="image" src="https://github.com/user-attachments/assets/fb1ca381-4633-4c8b-93fa-1ade69726db6" />
 
 🎯 Features:
-    - Two-player Pong gameplay (one paddle on each side) 
-    - VGA display at 640x480 resolution (25 MHz pixel clock)
-    - Paddles controlled via physical buttons
-    - Ball movement with collision detection (walls and paddles)
-    - Game state FSM (NEW GAME → PLAY → NEW BALL → GAME OVER)
-    - Game-over screen when a player loses all live
-    - On-screen text rendering for:
-      - PLAYER1: X and PLAYER2: Y
-      - Game instructions
-      - Logo display (PONG)
-      - Winner announcement
+   - Two-player Pong gameplay (one paddle on each side)
+   - VGA display at 640x480 resolution (25 MHz pixel clock)
+   - Paddles controlled via physical buttons
+   - Ball movement with collision detection (walls and paddles)
+   - Game state FSM (NEW GAME → PLAY → NEW BALL → GAME OVER)
+   - Game-over screen when a player loses all live
+   - On-screen text rendering for:
+     - PLAYER1: X and PLAYER2: Y
+     - Game instructions
+     - Logo display (PONG)
+     - Winner announcement
       
 🔧 Technical Details:
    - Language: Verilog
